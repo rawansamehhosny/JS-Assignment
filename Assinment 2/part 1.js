@@ -1,12 +1,15 @@
 // 1. Write a function that logs the current file path and directory. (0.5 Grade)
 // • Output Example:{File:“/home/user/project/index.js”, Dir:“/home/user/project”}
-const path = require("path");
+// const path = require("path");
 
-function currentFile() {
-    console.log(__dirname);
-}
+// // function currentFile() {
+
+//  console.log("File:", __dirname)
+//     console.log("Dir:", __filename)
 
 
+// }
+// currentFile();
 // 2. Write a function that takes a file path and returns its file name. (0.5 Grade)
 // • Input Example: /user/files/report.pdf
 // • Output Example:"report.pdf"
